@@ -5,7 +5,7 @@ import { Button, Grid, TextField } from '@material-ui/core';
 import { toast } from 'react-toastify';
 import { PostAdd } from '@material-ui/icons';
 
-const URL = 'https://thingproxy.freeboard.io/fetch/http://mypat.cloud/josip/custom/send/main';
+const URL = 'https://cors-anywhere.com/http://mypat.cloud/josip/custom/send/main';
 
 const Form = ({ addressInfo }) => {
   const [name, setName] = useState('');
