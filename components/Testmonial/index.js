@@ -18,7 +18,7 @@ const sliders = [
     subTitle: 'Slavonski Brod, Hrvatska',
   },
   {
-    text: 'Moj obitelj i ja smo uživali. Smještaj je bio vrhunski..',
+    text: 'Moja obitelj i ja smo uživali. Smještaj je bio vrhunski..',
     images: '/images/testimonial/2.png',
     title: 'Andrea Smiljan',
     subTitle: 'Maribor, Slovenija',
