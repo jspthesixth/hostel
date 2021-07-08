@@ -15,8 +15,7 @@ import BlogArea from '../components/BlogArea';
 
 const aboutText = [
   `Prepoznatljivost smještaja Jadran počela je davnih 60. godina uz pregršt plesnih večeri i zabave, te smo uz brojne posjetioce i sami naučili kako da istima ponudimo što bolje iskustvo, 
-  za jednu od najvažnijih aktivnosti, a to je sami odmor. Hostel Jadran je rezultat spoja obiteljskog posla, rada i zadovoljnih posjetioca či
-  me smo izrazito ponosni. Zato te pozivamo da postaneš dio naše male, te ujedno i velike obitelji.`
+  za jednu od najvažnijih aktivnosti, a to je sami odmor. Hostel Jadran je rezultat spoja obiteljskog posla, rada i zadovoljnih posjetioca čime smo izrazito ponosni. Zato te pozivamo da postaneš dio naše male, te ujedno i velike obitelji.`
 ];
 
 const portfolio = [
