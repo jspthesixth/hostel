@@ -8,26 +8,26 @@ const sliders = [
   {
     text: 'Ovo je najbolji smještaj u kojem sam odsjeo sa svojom obitelji i sigurno ću se vratiti!',
     images: '/images/testimonial/2.png',
-    title: 'Josip Grahovac',
+    title: 'Josip Glasnović',
     subTitle: 'Zagreb, Hrvatska',
   },
   {
     text: 'Odličan smještaj, nemam zamjerke.',
     images: '/images/testimonial/2.png',
     title: 'Vladimir Heim',
-    subTitle: 'Beč, Austrija',
+    subTitle: 'Slavonski Brod, Hrvatska',
   },
   {
     text: 'Moj obitelj i ja smo uživali. Smještaj je bio vrhunski..',
     images: '/images/testimonial/2.png',
-    title: 'Andrea Lončarić',
-    subTitle: 'Berlin, Njemačka',
+    title: 'Andrea Smiljan',
+    subTitle: 'Maribor, Slovenija',
   },
   {
     text: 'Sasvim slučaj izlet je prerastao u dugogodišnje prijateljstvo.',
     images: '/images/testimonial/2.png',
-    title: 'Darko Vidak',
-    subTitle: 'Rugvica, Hrvatska',
+    title: 'Darko Vidaković',
+    subTitle: 'Dugo Selo, Hrvatska',
   },
 ];
 const settings = {
