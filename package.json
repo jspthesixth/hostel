@@ -20,7 +20,7 @@
         "font-awesome": "^4.7.0",
         "joi-browser": "^13.4.0",
         "js-cookie": "^2.2.1",
-        "next": "10.0.2",
+        "next": "^11.0.1",
         "node-sass": "^5.0.0",
         "react": "17.0.1",
         "react-dom": "17.0.1",
