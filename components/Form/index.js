@@ -5,7 +5,7 @@ import { Button, Grid, TextField } from '@material-ui/core';
 import { toast } from 'react-toastify';
 import { PostAdd } from '@material-ui/icons';
 
-const URL = 'http://mypat.cloud/josip/custom/send/main';
+const URL = 'https://thingproxy.freeboard.io/fetch/http://mypat.cloud/josip/custom/send/main';
 
 const Form = ({ addressInfo }) => {
   const [name, setName] = useState('');
@@ -115,6 +115,10 @@ const Form = ({ addressInfo }) => {
     return errors;
   }; */
 
+  const setErrorFunc = () => {
+    setError("Poruka se šalje...");
+  }
+
   const submitHandler = async event => {
     event.preventDefault();
     const settings = {
@@ -136,8 +140,11 @@ const Form = ({ addressInfo }) => {
       }),
     };
     try {
+      setErrorFunc();
       const response = await fetch(URL, settings);
+      
       const data = await response.json();
+      setError("")
      
       setName('');
       setPhone('');
@@ -164,7 +171,7 @@ const Form = ({ addressInfo }) => {
                 className='form-control'
                 type='text'
               />
-              {error.name && <p>{error.name}</p>}
+             
             </Grid>
           </Grid>
           <Grid item sm={6} xs={12}>
@@ -177,7 +184,7 @@ const Form = ({ addressInfo }) => {
                 className='form-control'
                 type='phone'
               />
-              {error.phone && <p>{error.phone}</p>}
+             
             </Grid>
           </Grid>
           <Grid item sm={6} xs={12}>
@@ -190,7 +197,7 @@ const Form = ({ addressInfo }) => {
                 className='form-control'
                 type='email'
               />
-              {error.email && <p>{error.email}</p>}
+             
             </Grid>
           </Grid>
           <Grid item sm={6} xs={12}>
@@ -218,7 +225,7 @@ const Form = ({ addressInfo }) => {
                 placeholder='Poruka...'
                 name='message'
               />
-              {error.message && <p>{error.message}</p>}
+              {error && <p>{error}</p>}
             </Grid>
           </Grid>
           <Grid item sm={6} xs={12}>
