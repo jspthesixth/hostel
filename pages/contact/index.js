@@ -26,10 +26,9 @@ const Contact = () => {
               <h3>Naši kontakti</h3>
               <p> </p>
               <h4>Adresa</h4>
-              <span>Broj Ulica, Pag 1030123 Hrvatska</span>
+              <span>Šetalište Frane Budaka 17, 23230 Pag , Hrvatska</span>
               <h4>Telefon</h4>
-              <span>0-123-456-7890</span>
-              <span>0-123-456-7890</span>
+              <span>+38591-388-5558</span>
               <h4>Email</h4>
               <span>info@hostel-jadran.com</span>
             </Grid>
