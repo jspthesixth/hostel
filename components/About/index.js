@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import Link from 'next/link'
 import PlayArrowTwoToneIcon from '@material-ui/icons/PlayArrowTwoTone';
 import { Button, Grid } from '@material-ui/core'
 
@@ -26,12 +25,8 @@ const About = ({ subTitle, title, videoId, className = '', signature, pragraphs,
                         {pragraphs.map(text => (
                             <p key={text}>{text}</p>
                         ))}
-                        <Link href='/about'>
-                            <Button component="a" className="btnStyle">More About Us..</Button>
-                        </Link>
-                        {signature && <Grid className="signature">
-                            <img src={signature} alt="" />
-                        </Grid>}
+                        
+                    
                     </Grid>
                 </Grid>
             </Grid>

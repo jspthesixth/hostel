@@ -8,18 +8,18 @@ import PeopleAltTwoToneIcon from '@material-ui/icons/PeopleAltTwoTone';
 const services = [
     {
         icon: <PersonOutlineTwoToneIcon />,
-        subtitle: 'Book Your',
-        title: 'Appointment'
+        subtitle: 'Kontaktiraj nas za ',
+        title: 'Rezervaciju'
     },
     {
         icon: <HourglassFullTwoToneIcon />,
-        subtitle: 'Get Free',
-        title: 'Expert Advice'
+        subtitle: 'Pričekaj naš',
+        title: 'Odgovor'
     },
     {
         icon: <PeopleAltTwoToneIcon />,
-        subtitle: 'You Can Easily',
-        title: 'Join Our Team'
+        subtitle: 'Dođi Da Se',
+        title: 'Upoznamo'
     },
 ]
 const Service = ({ className = '' }) => {

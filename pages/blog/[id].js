@@ -2,7 +2,6 @@ import React, { Fragment } from 'react'
 import Head from 'next/head'
 import { Grid } from '@material-ui/core'
 import Breadcumb from '../../components/Breadcumb'
-import NewsLetter from '../../components/Newsletter'
 import CetagorySidebar from '../../components/CetagorySidebar'
 import SearchSidebar from '../../components/SearchSidebar'
 import RecentPosts from '../../components/RecentPosts'
@@ -84,7 +83,7 @@ const BlogDetails = ({ id }) => {
             <Breadcumb
                 title={blog.title}
                 breadcumbMenu={breadcumbMenu}
-                background='/images/breadcumb/1.jpg'
+                background='/images/breadcumb/1.jpeg'
             />
             <Grid className="singleArea ptb100">
                 <Grid container spacing={4} className="container">
@@ -117,9 +116,6 @@ const BlogDetails = ({ id }) => {
                     </Grid>
                 </Grid>
             </Grid>
-            <NewsLetter
-                className="newsLetterArea"
-            />
         </Fragment>
     );
 }

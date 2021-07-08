@@ -5,19 +5,19 @@ import MoneyIcon from '@material-ui/icons/Money';
 import SectionTitle from '../Title'
 const pricingpanel = [
     {
-        title: 'Started Plan',
-        text: 'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.',
-        price: '$120',
+        title: 'Broj noćenja: 1',
+        text: 'Cijena se odnosi na paket jednog noćenja za jednu osobu.',
+        price: '€30',
     },
     {
-        title: 'Basic Plan',
-        text: 'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.',
-        price: '$150',
+        title: 'Broj noćenja: 1',
+        text: 'Cijena se odnosi na paket jednog noćenja za dvije osobe.',
+        price: '€60',
     },
     {
-        title: 'Advanced Plan',
-        text: 'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.',
-        price: '$180',
+        title: 'Broj noćenja: 1',
+        text: 'Cijena se odnosi na paket apartmana do četiri osobe.',
+        price: '€90',
     },
 ]
 const PricingTable = ({ className = "", title, subTitle }) => {
@@ -40,7 +40,6 @@ const PricingTable = ({ className = "", title, subTitle }) => {
                             <h3>{pricing.title}</h3>
                             <h2>{pricing.price}</h2>
                             <p>{pricing.text}</p>
-                            <Button className="btnStyle">Get Started</Button>
                         </Grid>
                     </Grid>
                 ))}

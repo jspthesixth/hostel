@@ -2,7 +2,6 @@ import React, { Fragment } from 'react'
 import Head from 'next/head'
 import { Grid } from '@material-ui/core'
 import Breadcumb from '../../components/Breadcumb'
-import NewsLetter from '../../components/Newsletter'
 import CetagorySidebar from '../../components/CetagorySidebar'
 import BannerSidebar from '../../components/BannerSidebar'
 import SingleContentArea from '../../components/SingleContentArea'
@@ -109,9 +108,6 @@ const ServiceDetails = ({ id }) => {
                     </Grid>
                 </Grid>
             </Grid>
-            <NewsLetter
-                className="newsLetterArea"
-            />
         </Fragment>
     );
 }

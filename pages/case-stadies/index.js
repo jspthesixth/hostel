@@ -1,7 +1,6 @@
 import React, { Fragment } from 'react'
 import Head from 'next/head'
 import Breadcumb from '../../components/Breadcumb'
-import NewsLetter from '../../components/Newsletter'
 import Portfolio from '../../components/Portfolio'
 
 const breadcumbMenu = [
@@ -87,8 +86,6 @@ const CaseStudies = () => {
                 portfolioItem={portfolio}
                 className="portfolioAreaStyleTwo"
             />
-
-            <NewsLetter />
         </Fragment>
     )
 }

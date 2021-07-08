@@ -14,6 +14,7 @@ import FooterArea from '../components/FooterArea';
 const MyApp = ({ Component, pageProps }) => {
     return (
         <Provider store={store}>
+           
             <header className="headerArea">
                 <HeaderTop className="headerTop" />
                 <HeaderBottom className="headerBottomArea" />

@@ -1,94 +1,84 @@
-import React, { Fragment } from 'react'
-import Head from 'next/head'
+import React, { Fragment } from 'react';
+import Head from 'next/head';
 
-// components 
-import HeroSlider from '../components/HeroSlider'
-import Service from '../components/Service'
-import About from '../components/About'
-import ServiceArea from '../components/ServiceArea'
-import Portfolio from '../components/Portfolio'
-import Testmonial from "../components/Testmonial";
-import ContactArea from '../components/ContactArea'
-import TeamMember from '../components/TeamMember'
-import CounterArea from '../components/CounterArea'
-import BlogArea from '../components/BlogArea'
-import NewsLetter from '../components/Newsletter'
+// components
+import HeroSlider from '../components/HeroSlider';
+import Service from '../components/Service';
+import About from '../components/About';
+import ServiceArea from '../components/ServiceArea';
+import Portfolio from '../components/Portfolio';
+import Testmonial from '../components/Testmonial';
+import ContactArea from '../components/ContactArea';
+import HostelRooms from '../components/HostelRooms';
+import CounterArea from '../components/CounterArea';
+import BlogArea from '../components/BlogArea';
 
-const aboutText = ['Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at', 'and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum'
-]
+const aboutText = [
+  `Prepoznatljivost smještaja Jadran počela je davnih 60. godina uz pregršt plesnih večeri i zabave, te smo uz brojne posjetioce i sami naučili kako da istima ponudimo što bolje iskustvo, 
+  za jednu od najvažnijih aktivnosti, a to je sami odmor. Hostel Jadran je rezultat spoja obiteljskog posla, rada i zadovoljnih posjetioca či
+  me smo izrazito ponosni. Zato te pozivamo da postaneš dio naše male, te ujedno i velike obitelji.`
+];
 
 const portfolio = [
-    {
-        image: '/images/studies/1.jpg',
-        title: 'General Service',
-        subtitle: 'Corporate',
-        id: 1
-    },
-    {
-        image: '/images/studies/2.jpg',
-        title: 'Personal Issue',
-        subtitle: 'General',
-        id: 2
-    },
-    {
-        image: '/images/studies/3.jpg',
-        title: 'Business Accounting',
-        subtitle: 'Business',
-        id: 3
-    },
-    {
-        image: '/images/studies/4.jpg',
-        title: 'Accounting issue',
-        subtitle: 'Criminal',
-        id: 4
-    },
-    {
-        image: '/images/studies/5.jpg',
-        title: 'Business Accounting',
-        subtitle: 'Family Issue',
-        id: 5
-    }
-]
-
+  {
+    image: '/images/studies/1.jpg',
+    title: 'General Service',
+    subtitle: 'Corporate',
+    id: 1,
+  },
+  {
+    image: '/images/studies/2.jpg',
+    title: 'Personal Issue',
+    subtitle: 'General',
+    id: 2,
+  },
+  {
+    image: '/images/studies/3.jpg',
+    title: 'Business Accounting',
+    subtitle: 'Business',
+    id: 3,
+  },
+  {
+    image: '/images/studies/4.jpg',
+    title: 'Accounting issue',
+    subtitle: 'Criminal',
+    id: 4,
+  },
+  {
+    image: '/images/studies/5.jpg',
+    title: 'Business Accounting',
+    subtitle: 'Family Issue',
+    id: 5,
+  },
+];
 
 const Home = () => {
-    return (
-        <Fragment>
-            <Head>
-                <title>Home page</title>
-            </Head>
-            <HeroSlider />
-            <Service className="bgColor" />
-            <About
-                title="About Us"
-                images="/images/about/2.jpg"
-                signature="/images/about/1.png"
-                pragraphs={aboutText}
-            />
-            <ServiceArea
-                title="How Can We Help You"
-                subTitle="Area Of Practice"
-                className="bgWhite"
-            />
-            <Portfolio
-                title="Our Resent Case Studies"
-                subTitle="Here Our Best Work"
-                portfolioItem={portfolio}
-            />
-            <Testmonial />
-            <ContactArea />
-            <TeamMember
-                title="Qualified Attorneys "
-                subTitle="Meet Our Experts"
-                slider={true}
-            />
-            <CounterArea />
-            <BlogArea
-                title="Latest News"
-                subTitle="From Our Blog"
-            />
-            <NewsLetter />
-        </Fragment>
-    )
-}
-export default Home
+  return (
+    <Fragment>
+      <Head>
+        <title>Hostel Jadran</title>
+      </Head>
+      <HeroSlider />
+      <Service className='bgColor' />
+      <About
+        title='O nama'
+        images='/images/about/2.jpg'
+        signature='/images/about/1.png'
+        pragraphs={aboutText}
+      />
+      <ServiceArea
+        title='Koje usluge pružamo'
+        subTitle='Naše prednosti'
+        className='bgWhite'
+      />
+      <HostelRooms
+        title='Sobe i apartmani'
+        subTitle='Pogledajte našu ponudu'
+        slider={true}
+      />
+      <Testmonial />
+      <ContactArea />
+    </Fragment>
+  );
+};
+export default Home;

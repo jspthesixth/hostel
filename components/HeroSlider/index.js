@@ -7,32 +7,32 @@ import KeyboardArrowLeftIcon from '@material-ui/icons/KeyboardArrowLeft';
 
 const heroSliders = [
     {
-        images: '/images/slider/slide-4.jpg',
-        title: 'We Fight For Your Justice',
-        subTitle: 'As Like A Friend.',
-        text: 'The Most Talented Law Frim',
-        button: 'Contact us now'
-    },
-    {
-        images: '/images/slider/slide-5.jpg',
-        title: 'We Fight For Your Justice',
-        subTitle: 'As Like A Friend.',
-        text: 'The Most Talented Law Frim',
-        button: 'Contact us now'
-    },
-    {
-        images: '/images/slider/slide-22.jpg',
-        title: 'We Fight For Your Justice',
-        subTitle: 'As Like A Friend.',
-        text: 'The Most Talented Law Frim',
-        button: 'Contact us now'
-    },
-    {
         images: '/images/slider/slide-1.jpg',
-        title: 'We Fight For Your Justice',
-        subTitle: 'As Like A Friend.',
-        text: 'The Most Talented Law Frim',
-        button: 'Contact us now'
+        title: 'Pazimo na urednost',
+        subTitle: 'Kao da ćemo ugostiti sami sebe.',
+        text: 'Prvi u čistoći',
+        button: 'Kontaktirajte nas odmah'
+    }, 
+    {
+        images: '/images/slider/slide-2.jpg',
+        title: 'Ključ obostranog zadovoljstva',
+        subTitle: 'Može biti samo dobra komunikacija.',
+        text: 'Prvi u komunikaciji',
+        button: 'Kontaktirajte nas odmah'
+    },
+    {
+        images: '/images/slider/slide-3.jpg',
+        title: 'Želimo biti i ostati najbolji',
+        subTitle: 'Zato ne brini hoćemo li ispuniti očekivanja.',
+        text: 'Najbolji na tržištu',
+        button: 'Kontaktirajte nas odmah'
+    },
+    {
+        images: '/images/slider/slide-4.jpg',
+        title: 'Kreni u avanturu',
+        subTitle: 'A sve ostalo prepusti nama.',
+        text: 'Prvi tu za tebe',
+        button: 'Kontaktirajte nas odmah'
     },
 ]
 

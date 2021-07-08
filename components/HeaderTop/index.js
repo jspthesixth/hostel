@@ -12,18 +12,18 @@ const HeaderTop = props => {
                 className="container headerTopMainWrapper">
                 <Grid item sm={6} md={5} lg={5} xs={12}>
                     <ul className="d-flex accountLoginArea">
-                        <li><RoomOutlinedIcon /> 121 King Street, Melbourne , Australia</li>
+                        <li><RoomOutlinedIcon /> Šetalište Frane Budaka 17, 23230 Pag , Hrvatska</li>
                     </ul>
                 </Grid>
                 <Grid item sm={6} md={4} lg={5} xs={12}>
                     <ul className="headerContact">
-                        <li><PhoneOutlinedIcon /> 3164-5456854</li>
-                        <li><QueryBuilderOutlinedIcon /> 9AM - PM</li>
+                        <li><PhoneOutlinedIcon /> +38591-388-5558</li>
+                        <li><QueryBuilderOutlinedIcon /> 0-24h</li>
                     </ul>
                 </Grid>
                 <Hidden smDown>
                     <Grid item lg={2} md={3} xs={12} className="text-right">
-                        <Button className="btnStyle btnOutlined btnRadius" component="a" href="#">Free Consultation</Button>
+                        <Button className="btnStyle btnOutlined btnRadius" component="a" href="/contact">Kontaktirajte nas</Button>
                     </Grid>
                 </Hidden>
             </Grid>

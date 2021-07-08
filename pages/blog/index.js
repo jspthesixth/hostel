@@ -2,7 +2,6 @@ import React, { Fragment } from 'react'
 import { Grid } from '@material-ui/core'
 import Head from 'next/head'
 import Breadcumb from '../../components/Breadcumb'
-import NewsLetter from '../../components/Newsletter'
 import SearchSidebar from '../../components/SearchSidebar'
 import CetagorySidebar from '../../components/CetagorySidebar'
 import RecentPosts from '../../components/RecentPosts'
@@ -47,7 +46,6 @@ const Blog = () => {
                     </Grid>
                 </Grid>
             </Grid>
-            <NewsLetter />
         </Fragment>
     )
 }
