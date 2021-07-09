@@ -31,7 +31,7 @@ const Contact = () => {
         <Grid container spacing={4} className='container'>
         <div style={{ height: '500px', width: '100%' }}>
             <GoogleMapReact
-          bootstrapURLKeys={{ key: "AIzaSyD2o47wfFKiOaGEEnJXCnnM9ka_BOtv1u4" }}
+          bootstrapURLKeys={{ key: "AIzaSyApbT3zz2oOLF7hYNKZCK93f7ZyhR95qio" }}
           defaultCenter={center}
           defaultZoom={14}
         >
