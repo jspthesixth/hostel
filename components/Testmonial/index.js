@@ -24,7 +24,7 @@ const sliders = [
     subTitle: 'Maribor, Slovenija',
   },
   {
-    text: 'Sasvim slučaj izlet je prerastao u dugogodišnje prijateljstvo.',
+    text: 'Sasvim slučajan izlet je prerastao u dugogodišnje prijateljstvo.',
     images: '/images/testimonial/2.png',
     title: 'Darko Vidaković',
     subTitle: 'Dugo Selo, Hrvatska',
