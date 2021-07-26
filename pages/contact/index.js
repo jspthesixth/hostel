@@ -45,7 +45,7 @@ const Contact = () => {
             <Grid className='contactUsInfo'>
               <h3>Lokacija</h3>
               <h4>Adresa</h4>
-              <span>Šetalište Vladimira Nazora, 23230 Pag , Hrvatska</span>
+              <span>Šetalište Vladimira Nazora, 23230 Pag, Hrvatska</span>
               <h4>Telefon</h4>
               <span>+385995022333</span>
               <h4>Email</h4>
