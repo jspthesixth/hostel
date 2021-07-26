@@ -45,9 +45,9 @@ const Contact = () => {
             <Grid className='contactUsInfo'>
               <h3>Lokacija</h3>
               <h4>Adresa</h4>
-              <span>Šetalište Frane Budaka 17, 23230 Pag , Hrvatska</span>
+              <span>Šetalište Vladimira Nazora, 23230 Pag , Hrvatska</span>
               <h4>Telefon</h4>
-              <span>+38591-388-5558</span>
+              <span>+385995022333</span>
               <h4>Email</h4>
               <span>info@hostel-jadran.com</span>
               

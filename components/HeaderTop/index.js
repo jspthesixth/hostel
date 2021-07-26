@@ -16,7 +16,7 @@ const HeaderTop = props => {
                 className="container headerTopMainWrapper">
                 <Grid item sm={6} md={5} lg={5} xs={12}>
                     <ul className="d-flex accountLoginArea">
-                        <li><RoomOutlinedIcon />{router.pathname==="/" ? <Link href="/contact"><a style={{textDecoration:'none', color:"#e0e0e0"}}>Šetalište Frane Budaka 17, 23230 Pag , Hrvatska</a></Link>: "Šetalište Frane Budaka 17, 23230 Pag , Hrvatska"} </li>
+                        <li><RoomOutlinedIcon />{router.pathname==="/" ? <Link href="/contact"><a style={{textDecoration:'none', color:"#e0e0e0"}}>Šetalište Vladimira Nazora, 23230 Pag , Hrvatska</a></Link>: "Šetalište Vladimira Nazora, 23230 Pag , Hrvatska"} </li>
                     </ul>
                 </Grid>
                 <Grid item sm={6} md={4} lg={5} xs={12}>
