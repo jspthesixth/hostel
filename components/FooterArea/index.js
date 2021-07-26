@@ -18,9 +18,9 @@ const footerLinks = [
     title: 'Kontaktirajte nas',
     menus: [
       { name: 'Hostel Jadran' },
-      { name: 'Šetalište Frane Budaka 17, 23230 Pag' },
+      { name: 'Šetalište Vladimira Nazora, 23230 Pag' },
       { name: 'Hrvatska' },
-      { name: 'Telefon: +38591-388-5558' },
+      { name: 'Telefon: +385995022333' },
       { name: 'Email: info@hostel-jadran.com' },
     ],
   },
