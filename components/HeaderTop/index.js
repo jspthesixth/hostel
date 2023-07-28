@@ -21,7 +21,7 @@ const HeaderTop = props => {
                 </Grid>
                 <Grid item sm={6} md={4} lg={5} xs={12}>
                     <ul className="headerContact">
-                        <li><PhoneOutlinedIcon /> +38599-502-2333</li>
+                        <li><PhoneOutlinedIcon /> +385915653789</li>
                         <li><QueryBuilderOutlinedIcon /> 0-24h</li>
                     </ul>
                 </Grid>

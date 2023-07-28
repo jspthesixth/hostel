@@ -20,7 +20,7 @@ const footerLinks = [
       { name: 'Hostel Jadran' },
       { name: 'Šetalište Vladimira Nazora, 23230 Pag' },
       { name: 'Hrvatska' },
-      { name: 'Telefon: +385995022333' },
+      { name: 'Telefon: +385915653789' },
       { name: 'Email: info@hostel-jadran.com' },
     ],
   },
