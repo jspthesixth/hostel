@@ -47,7 +47,7 @@ const Contact = () => {
               <h4>Adresa</h4>
               <span>Šetalište Vladimira Nazora, 23230 Pag, Hrvatska</span>
               <h4>Telefon</h4>
-              <span>+385995022333</span>
+              <span>+385915653789</span>
               <h4>Email</h4>
               <span>info@hostel-jadran.com</span>
               
