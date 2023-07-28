@@ -16,7 +16,7 @@ const ContactArea = ({ className = '' }) => {
             <span>Za naše klijente</span>
             <h2>Kontakt Forma</h2>
             <h6>
-              Zovite nas od 0-24h na broj +(385) 99 502 2333 ili ispunite formu.
+              Zovite nas od 0-24h na broj +385915653789 ili ispunite formu.
             </h6>
             <p>
               Želimo biti na usluzi svakom potencijalnom posjetiocu, jer naš
